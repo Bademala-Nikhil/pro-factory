@@ -1,0 +1,71 @@
+.ourwork {
+  width: 1920px;
+  margin: auto;
+  padding: 120px 320px;
+  background: #ffffff;
+  justify-items: center;
+}
+
+/* HEADER */
+.ourwork-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  
+}
+
+.ourwork-title h2 {
+  font-size: 44px;
+  line-height: 1.2;
+}
+
+.ourwork-title span {
+  font-weight: 800;
+}
+
+.ourwork-title p {
+  max-width: 420px;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.6;
+}
+
+/* FILTER */
+.ourwork-filter {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 60px;
+  font-size: 14px;
+}
+
+.ourwork-filter span {
+  cursor: pointer;
+  color: #777;
+}
+
+.ourwork-filter .active {
+  color: #ff9f0a;
+  font-weight: 600;
+}
+
+/* GRID */
+.ourwork-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 625px);
+  gap: 40px;
+}
+
+/* CARD */
+.ourwork-card img {
+  width: 625px;
+  height: 491.5px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.ourwork-card p {
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 600;
+}

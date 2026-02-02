@@ -1,0 +1,152 @@
+.about {
+  width: 1920px;
+  height: 876.3px;
+  opacity: 1;
+
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background: #ffffff;
+}
+
+.about-container {
+  max-width: 1320px;
+  height: 100%;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+/* ---------- IMAGES ---------- */
+.about-images {
+  position: relative;
+  width: 600px;
+}
+
+/* Top small image */
+.img-top {
+  width: 300px;
+  height: 208.73px;
+
+  position: absolute;
+  top: 110px;
+  left: 0;
+
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+/* Main image */
+.img-main {
+  width: 415px;
+  height: 506.3px;
+
+  margin-top: 260px;
+  margin-left: 170px;
+
+  border-radius: 40px;
+  border: 10px solid #ffffff;
+
+  object-fit: cover;
+}
+
+/* Experience badge */
+.experience-badge {
+  position: absolute;
+  top: 160px;
+  right: 0;
+
+  background: #ffffff;
+  padding: 20px 26px;
+  border-radius: 16px;
+
+  box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+}
+
+.experience-badge h3 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #f6a500;
+  margin: 0;
+}
+
+.experience-badge p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  color: #333;
+}
+
+/* ---------- CONTENT ---------- */
+.about-content {
+  max-width: 520px;
+}
+
+.about-label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #f6a500;
+}
+
+.about-content h2 {
+  margin-top: 16px;
+  font-size: 42px;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #111;
+}
+
+.about-content h2 span {
+  font-weight: 800;
+}
+
+.about-text {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666;
+}
+
+/* List */
+.about-list {
+  margin-top: 24px;
+  list-style: none;
+  padding: 0;
+
+  display: grid;
+  gap: 12px;
+}
+
+.about-list li {
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Button */
+.about-btn {
+  margin-top: 32px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 14px 26px;
+  border-radius: 6px;
+  border: 1px solid #f6a500;
+
+  background: transparent;
+  color: #f6a500;
+
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.about-btn span {
+  font-size: 18px;
+}

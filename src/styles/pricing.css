@@ -1,0 +1,122 @@
+.pricing-plan {
+  width: 1920px;
+  height: 1129.17px;
+  background: #ffffff;
+
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* INNER */
+.pricing-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* HEADING */
+.pricing-heading {
+  position: absolute;
+  top: 160px;
+  left: 320px;
+  width: 520px;
+}
+
+.pricing-heading h2 {
+  font-size: 44px;
+  line-height: 1.2;
+  margin: 16px 0;
+}
+
+.pricing-heading h2 span {
+  font-weight: 800;
+}
+
+.pricing-heading p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #777;
+  margin-top: 16px;
+}
+
+/* CARDS WRAPPER */
+.pricing-cards {
+  position: absolute;
+  top: 360px;
+  left: 320px;
+  display: flex;
+  gap: 30px;
+}
+
+/* CARD */
+.pricing-card {
+  width: 406.61px;
+  height: 542.75px;
+  border-radius: 40px;
+  background: #f6f6f6;
+  padding: 48px 36px;
+  position: relative;
+}
+
+/* PRICE */
+.pricing-card h3 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #ff9f0a;
+}
+
+.pricing-card h3 span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
+}
+
+.pricing-card h4 {
+  margin: 16px 0 32px;
+  font-size: 16px;
+}
+
+/* LIST */
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.pricing-card ul li {
+  font-size: 14px;
+  margin-bottom: 14px;
+  color: #555;
+}
+
+/* BUTTON */
+.pricing-card button {
+  position: absolute;
+  bottom: 36px;
+  left: 36px;
+
+  padding: 10px 24px;
+  border-radius: 20px;
+  background: transparent;
+  border: 1px solid #ff9f0a;
+  color: #ff9f0a;
+  cursor: pointer;
+}
+
+/* ACTIVE CARD */
+.pricing-card.active {
+  background: #ff9f0a;
+}
+
+.pricing-card.active h3,
+.pricing-card.active h3 span,
+.pricing-card.active h4,
+.pricing-card.active ul li {
+  color: #ffffff;
+}
+
+.pricing-card.active button {
+  border-color: #ffffff;
+  color: #ffffff;
+}

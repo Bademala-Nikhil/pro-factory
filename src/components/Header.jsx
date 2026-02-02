@@ -1,0 +1,35 @@
+import "../styles/header.css";
+import { Link } from "react-router-dom";
+
+
+
+export default function Header() {
+  return (
+    <header className="header">
+      <div className="header-container">
+        {/* Logo */}
+        <div className="logo">
+          <span className="logo-icon">⚙</span>
+          <span className="logo-text">FactoryPro</span>
+        </div>
+
+        {/* Navigation */}
+        <nav className="nav">
+        
+          <Link to="/">Home</Link>
+         <Link to="/about">About Us</Link>
+         <Link to="/blog">Blog</Link>
+         <Link to="/project">Project</Link>
+         <Link to="/project">Pages</Link>
+         <Link to="/contact">Contact Us</Link>
+        </nav>
+
+        {/* Phone */}
+        <div className="phone">
+          <span className="phone-icon">📞</span>
+          <span>+01 123456789</span>
+        </div>
+      </div>
+    </header>
+  );
+}
