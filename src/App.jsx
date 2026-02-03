@@ -5,7 +5,7 @@ import BlogPage from "./pages/BlogPage";
 import ProjectPage from "./pages/ProjectPage";
 import PricingPage from "./pages/PricingPage";
 import ContactPage from "./pages/ContactPage";
-import "./app.css";
+import "./App.css";
 
 function App() {
   return (
