@@ -1,5 +1,5 @@
 import "../styles/process.css";
-import Process from "../images/process.jpeg";
+import Process from "../images/process.png";
 
 export default function OurStorySection() {
   return (

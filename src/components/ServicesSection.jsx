@@ -1,4 +1,4 @@
-import bgServices from "../images/services-bg.jpeg";
+import bgServices from "../images/service-bg.png";
 import "../styles/services.css";
 
 export default function ServicesSection() {
@@ -10,13 +10,7 @@ export default function ServicesSection() {
       <div className="services-overlay"></div>
 
       {/* Heading */}
-      <div className="services-content">
-        <span className="section-tag">SERVICES</span>
-        <h2>
-          Comprehensive solutions <br />
-          <span>for industrial excellence</span>
-        </h2>
-      </div>
+       
 
       {/* Cards */}
       <div className="services-card">

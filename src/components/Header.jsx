@@ -1,6 +1,6 @@
 import "../styles/header.css";
 import { Link } from "react-router-dom";
-
+import logo from "../images/factorypro-logo.png"
 
 
 export default function Header() {
@@ -9,8 +9,7 @@ export default function Header() {
       <div className="header-container">
         {/* Logo */}
         <div className="logo">
-          <span className="logo-icon">⚙</span>
-          <span className="logo-text">FactoryPro</span>
+          <img src={logo} alt="" />
         </div>
 
         {/* Navigation */}

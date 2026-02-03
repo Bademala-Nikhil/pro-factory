@@ -1,0 +1,29 @@
+/* HERO IMAGE WRAPPER */
+/* HERO IMAGE WRAPPER */
+.hero-image {
+  width: 1920px;
+  height: 1200px;        /* Figma height */
+  left: 0;
+  margin-top: -101px;
+  margin-left: -101px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.hero-image img {
+  width: 1920px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.hero-content {
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}

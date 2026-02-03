@@ -11,12 +11,16 @@ import Pricing from "../components/Pricing";
 import Blog from "../components/Blog";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
+import Main from "../images/main.png";
+import "../styles/homePage.css";
 
 function Home() {
   return (
     <>
       <Header />
-      <Hero />
+      <div className="hero-image">
+        <img src={Main} alt="main" />
+      </div>
       <About /> {/* ✅ About section on HOME */}
       <ServicesSection />
       <OurStorySection />

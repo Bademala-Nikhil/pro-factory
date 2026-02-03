@@ -1,5 +1,5 @@
 import "../styles/whatWeDo.css";
-import whatWeDoImg from "../images/what-we-do.jpeg";
+import whatWeDoImg from "../images/what-we-do.png";
 
 export default function WhatWeDoSection() {
   return (

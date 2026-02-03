@@ -1,7 +1,9 @@
 .about-hero {
-  width: 100%;
+  width: 1920px;
   height: 516.19px; /* Figma height */
-  background-image: url("../images/about-banner.jpeg"); /* use same Figma image */
+   margin-top: -101px;
+  margin-left: -101px;
+  background-image: url("../images/background.png"); /* use same Figma image */
   background-size: cover;
   background-position: center;
   position: relative;
